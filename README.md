@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+Access the app : 
+
+https://eventbrite-devise.herokuapp.com/ 
+
+
+remote: Verifying deploy... done.
+To https://git.heroku.com/eventbrite-devise.git

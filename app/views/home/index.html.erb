@@ -1,0 +1,10 @@
+<h1>Binevenue sur mon site </h1>
+<p>
+<%if user_signed_in?%>
+
+<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+<%else%>
+<%=link_to 'Se connecter',new_user_session_path%>
+<%end%>
+<%=link_to 'paiement',new_order_path%>
+
